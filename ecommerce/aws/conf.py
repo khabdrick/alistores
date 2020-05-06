@@ -8,7 +8,7 @@ AWS_SECRET_ACCESS_KEY = "yYDQ5kZ22faIdCDunOlEJZU2kiACx6rdOXvUM62h"
 
 AWS_FILE_EXPIRE = 200
 AWS_PRELOAD_METADATA = True
-AWS_QUERYSTRING_AUTH = True
+AWS_QUERYSTRING_AUTH = False
 
 DEFAULT_FILE_STORAGE = 'ecommerce.aws.utils.MediaRootS3BotoStorage'
 STATICFILES_STORAGE = 'ecommerce.aws.utils.StaticRootS3BotoStorage'
@@ -29,4 +29,4 @@ AWS_HEADERS = {
     'Cache-Control': 'max-age=%d' % (int(two_months.total_seconds()), ),
 }
 
-AWS_QUERYSTRING_AUTH = True
+AWS_QUERYSTRING_AUTH = False
