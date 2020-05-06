@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+      # third party
+    'storages',
+
     'products',
     'search',
     'carts',
@@ -170,7 +173,3 @@ SECURE_HSTS_SECONDS             = None
 SECURE_HSTS_INCLUDE_SUBDOMAINS  = False
 SECURE_FRAME_DENY               = False
 
-AWS_GROUP_NAME='alistores_group'
-AWS_USERNAME='alistores'
-AWS_ACCESS_KEY_ID='AKIA5Y6I2XBBYTUXFUK2'
-AWS_SECRET_KEY = "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"
