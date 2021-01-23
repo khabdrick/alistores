@@ -1,6 +1,6 @@
 # Django E-commerce
 
-This is a very simple e-commerce website built mainly with Django.
+This is a very simple e-commerce website built mainly with Django amd a little Javascript
 
 ## Running this project
 
